@@ -15,7 +15,7 @@ This repository contains a Jupyter Notebook for conducting exploratory data anal
 6. [Visualizations](#visualizations)
 7. [Conclusion](#conclusion)
 
-## Data Acquisition
+# Data Acquisition
 
 In this project, we utilize the [mention the dataset source, e.g., "Iris dataset from Seaborn"] to explore various features. The dataset is loaded using the following command:
 
@@ -23,6 +23,7 @@ In this project, we utilize the [mention the dataset source, e.g., "Iris dataset
 import pandas as pd
 import seaborn as sns
 df = sns.load_dataset("penguins")  # Example with the Penguins dataset
+```
 
 ## Initial Data Inspection
 
