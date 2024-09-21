@@ -24,40 +24,40 @@ import pandas as pd
 import seaborn as sns
 df = sns.load_dataset("penguins")  # Example with the Penguins dataset
 
-Initial Data Inspection
+## Initial Data Inspection
 
 The initial inspection of the dataset involves checking its structure, size, and data types. This step is crucial to understand the information we are working with.
 
-Descriptive Statistics
+## Descriptive Statistics
 
 Descriptive statistics provide insights into the distribution and central tendencies of the dataset, helping to identify patterns and anomalies.
 
-Data Distribution Analysis
+## Data Distribution Analysis
 
 This section includes visualizations of both numerical and categorical data distributions to understand the dataset better.
 
-Data Preparation
+## Data Preparation
 
 Data preparation is an essential step to ensure that the dataset is clean and formatted correctly for analysis. This includes handling missing values, renaming columns, and adding new features.
 
-Visualizations
+## Visualizations
 
 Using libraries like Matplotlib and Seaborn, we create various visualizations to extract and present insights from the data.
 
-Conclusion
+## Conclusion
 
 This exploratory data analysis provides valuable insights into [mention any key findings or conclusions]. The analysis can be further expanded upon with additional datasets or deeper statistical analyses.
 
-1. Installation
+# 1. Installation
 Clone the repository:
 git clone https://github.com/mokeyzz/datafun-04-jupyter.git
 
-2. Navigate to the project directory:
+#2. Navigate to the project directory:
 cd datafun-04-jupyter
 
-3. Install the required libraries:
+#3. Install the required libraries:
 pip install -r requirements.txt
 
-4. Start Jupyter Notebook:
+#4. Start Jupyter Notebook:
 jupyter notebook
 
